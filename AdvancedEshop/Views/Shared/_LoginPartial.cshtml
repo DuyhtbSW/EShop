@@ -1,4 +1,5 @@
-﻿@using Microsoft.AspNetCore.Identity
+﻿
+@using Microsoft.AspNetCore.Identity
 @inject SignInManager<IdentityUser> SignInManager
 @inject UserManager<IdentityUser> UserManager
 
@@ -16,6 +17,9 @@
 }
 else
 {
+        <li class="nav-item">
+            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Trang chủ</a>
+        </li>
     <li class="nav-item">
         <a class="nav-link text-dark" asp-area="Identity" asp-page="/Account/Register">Register</a>
     </li>

@@ -3,24 +3,35 @@
   "WorkspaceRootPath": "C:\\Users\\Admin\\Desktop\\PRN231\\EShop\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3F710116-DC95-4CFA-AAE9-FE36F5542238}|AdvancedEshop\\AdvancedEshop.csproj|c:\\users\\admin\\desktop\\prn231\\eshop\\advancedeshop\\views\\shared\\components\\trandy\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{3F710116-DC95-4CFA-AAE9-FE36F5542238}|AdvancedEshop\\AdvancedEshop.csproj|solutionrelative:advancedeshop\\views\\shared\\components\\trandy\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{3F710116-DC95-4CFA-AAE9-FE36F5542238}|AdvancedEshop\\AdvancedEshop.csproj|c:\\users\\admin\\desktop\\prn231\\eshop\\advancedeshop\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F710116-DC95-4CFA-AAE9-FE36F5542238}|AdvancedEshop\\AdvancedEshop.csproj|solutionrelative:advancedeshop\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3F710116-DC95-4CFA-AAE9-FE36F5542238}|AdvancedEshop\\AdvancedEshop.csproj|c:\\users\\admin\\desktop\\prn231\\eshop\\advancedeshop\\views\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{3F710116-DC95-4CFA-AAE9-FE36F5542238}|AdvancedEshop\\AdvancedEshop.csproj|solutionrelative:advancedeshop\\views\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{3F710116-DC95-4CFA-AAE9-FE36F5542238}|AdvancedEshop\\AdvancedEshop.csproj|c:\\users\\admin\\desktop\\prn231\\eshop\\advancedeshop\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F710116-DC95-4CFA-AAE9-FE36F5542238}|AdvancedEshop\\AdvancedEshop.csproj|solutionrelative:advancedeshop\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F710116-DC95-4CFA-AAE9-FE36F5542238}|AdvancedEshop\\AdvancedEshop.csproj|c:\\users\\admin\\desktop\\prn231\\eshop\\advancedeshop\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3F710116-DC95-4CFA-AAE9-FE36F5542238}|AdvancedEshop\\AdvancedEshop.csproj|solutionrelative:advancedeshop\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F710116-DC95-4CFA-AAE9-FE36F5542238}|AdvancedEshop\\AdvancedEshop.csproj|c:\\users\\admin\\desktop\\prn231\\eshop\\advancedeshop\\areas\\identity\\pages\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3F710116-DC95-4CFA-AAE9-FE36F5542238}|AdvancedEshop\\AdvancedEshop.csproj|solutionrelative:advancedeshop\\areas\\identity\\pages\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F710116-DC95-4CFA-AAE9-FE36F5542238}|AdvancedEshop\\AdvancedEshop.csproj|c:\\users\\admin\\desktop\\prn231\\eshop\\advancedeshop\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F710116-DC95-4CFA-AAE9-FE36F5542238}|AdvancedEshop\\AdvancedEshop.csproj|solutionrelative:advancedeshop\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3F710116-DC95-4CFA-AAE9-FE36F5542238}|AdvancedEshop\\AdvancedEshop.csproj|c:\\users\\admin\\desktop\\prn231\\eshop\\advancedeshop\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{3F710116-DC95-4CFA-AAE9-FE36F5542238}|AdvancedEshop\\AdvancedEshop.csproj|solutionrelative:advancedeshop\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3F710116-DC95-4CFA-AAE9-FE36F5542238}|AdvancedEshop\\AdvancedEshop.csproj|c:\\users\\admin\\desktop\\prn231\\eshop\\advancedeshop\\components\\trandy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3F710116-DC95-4CFA-AAE9-FE36F5542238}|AdvancedEshop\\AdvancedEshop.csproj|solutionrelative:advancedeshop\\components\\trandy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3F710116-DC95-4CFA-AAE9-FE36F5542238}|AdvancedEshop\\AdvancedEshop.csproj|c:\\users\\admin\\desktop\\prn231\\eshop\\advancedeshop\\views\\products\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3F710116-DC95-4CFA-AAE9-FE36F5542238}|AdvancedEshop\\AdvancedEshop.csproj|solutionrelative:advancedeshop\\views\\products\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3F710116-DC95-4CFA-AAE9-FE36F5542238}|AdvancedEshop\\AdvancedEshop.csproj|c:\\users\\admin\\desktop\\prn231\\eshop\\advancedeshop\\components\\navbar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3F710116-DC95-4CFA-AAE9-FE36F5542238}|AdvancedEshop\\AdvancedEshop.csproj|solutionrelative:advancedeshop\\components\\navbar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Admin\\Downloads\\EShopper Free Website Template - Free-CSS.com\\bootstrap-shop-template\\detail.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,7 +41,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 10,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -58,67 +69,106 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\PRN231\\EShop\\AdvancedEshop\\Views\\Products\\Index.cshtml",
-              "RelativeDocumentMoniker": "AdvancedEshop\\Views\\Products\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Admin\\Desktop\\PRN231\\EShop\\AdvancedEshop\\Views\\Products\\Index.cshtml",
-              "RelativeToolTip": "AdvancedEshop\\Views\\Products\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-14T10:05:27.583Z",
+              "DocumentIndex": 0,
+              "Title": "CartController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\PRN231\\EShop\\AdvancedEshop\\Controllers\\CartController.cs",
+              "RelativeDocumentMoniker": "AdvancedEshop\\Controllers\\CartController.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\PRN231\\EShop\\AdvancedEshop\\Controllers\\CartController.cs",
+              "RelativeToolTip": "AdvancedEshop\\Controllers\\CartController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T15:37:55.108Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Navbar.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\PRN231\\EShop\\AdvancedEshop\\Components\\Navbar.cs",
-              "RelativeDocumentMoniker": "AdvancedEshop\\Components\\Navbar.cs",
-              "ToolTip": "C:\\Users\\Admin\\Desktop\\PRN231\\EShop\\AdvancedEshop\\Components\\Navbar.cs",
-              "RelativeToolTip": "AdvancedEshop\\Components\\Navbar.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAHAAAA",
+              "DocumentIndex": 1,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\PRN231\\EShop\\AdvancedEshop\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "AdvancedEshop\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\PRN231\\EShop\\AdvancedEshop\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "AdvancedEshop\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-14T10:02:57.129Z",
+              "WhenOpened": "2024-05-14T15:34:44.201Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Trandy.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\PRN231\\EShop\\AdvancedEshop\\Components\\Trandy.cs",
-              "RelativeDocumentMoniker": "AdvancedEshop\\Components\\Trandy.cs",
-              "ToolTip": "C:\\Users\\Admin\\Desktop\\PRN231\\EShop\\AdvancedEshop\\Components\\Trandy.cs",
-              "RelativeToolTip": "AdvancedEshop\\Components\\Trandy.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAgAAAA",
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\PRN231\\EShop\\AdvancedEshop\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "AdvancedEshop\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\PRN231\\EShop\\AdvancedEshop\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
+              "RelativeToolTip": "AdvancedEshop\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-14T15:30:37.652Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\PRN231\\EShop\\AdvancedEshop\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "AdvancedEshop\\Models\\Category.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\PRN231\\EShop\\AdvancedEshop\\Models\\Category.cs",
+              "RelativeToolTip": "AdvancedEshop\\Models\\Category.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-14T10:02:53.451Z",
+              "WhenOpened": "2024-05-14T15:30:32.348Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "_LoginPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\PRN231\\EShop\\AdvancedEshop\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeDocumentMoniker": "AdvancedEshop\\Views\\Shared\\_LoginPartial.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\PRN231\\EShop\\AdvancedEshop\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeToolTip": "AdvancedEshop\\Views\\Shared\\_LoginPartial.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAABSAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-14T15:22:18.378Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\PRN231\\EShop\\AdvancedEshop\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "AdvancedEshop\\Views\\Shared\\_Layout.cshtml",
               "ToolTip": "C:\\Users\\Admin\\Desktop\\PRN231\\EShop\\AdvancedEshop\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "AdvancedEshop\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAAMAAAAAAAAAAAAAAAMQAAAAZAAAA",
+              "ViewState": "AQIAAGYAAAAAAAAAAAAAAG4AAABSAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-14T10:01:25.768Z",
+              "WhenOpened": "2024-05-14T15:19:44.237Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Default.cshtml",
-              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\PRN231\\EShop\\AdvancedEshop\\Views\\Shared\\Components\\Trandy\\Default.cshtml",
-              "RelativeDocumentMoniker": "AdvancedEshop\\Views\\Shared\\Components\\Trandy\\Default.cshtml",
-              "ToolTip": "C:\\Users\\Admin\\Desktop\\PRN231\\EShop\\AdvancedEshop\\Views\\Shared\\Components\\Trandy\\Default.cshtml",
-              "RelativeToolTip": "AdvancedEshop\\Views\\Shared\\Components\\Trandy\\Default.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAaAAAA",
+              "DocumentIndex": 6,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\PRN231\\EShop\\AdvancedEshop\\Views\\Products\\Details.cshtml",
+              "RelativeDocumentMoniker": "AdvancedEshop\\Views\\Products\\Details.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\PRN231\\EShop\\AdvancedEshop\\Views\\Products\\Details.cshtml",
+              "RelativeToolTip": "AdvancedEshop\\Views\\Products\\Details.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAABQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-14T10:01:24.697Z",
+              "WhenOpened": "2024-05-14T15:11:27.261Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "detail.html",
+              "DocumentMoniker": "C:\\Users\\Admin\\Downloads\\EShopper Free Website Template - Free-CSS.com\\bootstrap-shop-template\\detail.html",
+              "RelativeDocumentMoniker": "..\\..\\..\\Downloads\\EShopper Free Website Template - Free-CSS.com\\bootstrap-shop-template\\detail.html",
+              "ToolTip": "C:\\Users\\Admin\\Downloads\\EShopper Free Website Template - Free-CSS.com\\bootstrap-shop-template\\detail.html",
+              "RelativeToolTip": "..\\..\\..\\Downloads\\EShopper Free Website Template - Free-CSS.com\\bootstrap-shop-template\\detail.html",
+              "ViewState": "AQIAAKUAAAAAAAAAAAAAAKwAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-05-14T15:11:16.269Z",
               "EditorCaption": ""
             }
           ]

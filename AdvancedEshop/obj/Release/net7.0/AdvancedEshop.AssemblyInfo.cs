@@ -16,7 +16,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AdvancedEshop")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+30071eff3aecd7eb68b245ccef45190cef9526b9")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d2f618d455e20640134ef111bf43dbf8775d2cd2")]
 [assembly: System.Reflection.AssemblyProductAttribute("AdvancedEshop")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AdvancedEshop")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
