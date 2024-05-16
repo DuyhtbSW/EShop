@@ -1,7 +1,24 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\Admin\\Desktop\\PRN231\\EShop\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3F710116-DC95-4CFA-AAE9-FE36F5542238}|AdvancedEshop\\AdvancedEshop.csproj|c:\\users\\admin\\desktop\\prn231\\eshop\\advancedeshop\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F710116-DC95-4CFA-AAE9-FE36F5542238}|AdvancedEshop\\AdvancedEshop.csproj|solutionrelative:advancedeshop\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F710116-DC95-4CFA-AAE9-FE36F5542238}|AdvancedEshop\\AdvancedEshop.csproj|c:\\users\\admin\\desktop\\prn231\\eshop\\advancedeshop\\views\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3F710116-DC95-4CFA-AAE9-FE36F5542238}|AdvancedEshop\\AdvancedEshop.csproj|solutionrelative:advancedeshop\\views\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F710116-DC95-4CFA-AAE9-FE36F5542238}|AdvancedEshop\\AdvancedEshop.csproj|c:\\users\\admin\\desktop\\prn231\\eshop\\advancedeshop\\views\\products\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3F710116-DC95-4CFA-AAE9-FE36F5542238}|AdvancedEshop\\AdvancedEshop.csproj|solutionrelative:advancedeshop\\views\\products\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F710116-DC95-4CFA-AAE9-FE36F5542238}|AdvancedEshop\\AdvancedEshop.csproj|c:\\users\\admin\\desktop\\prn231\\eshop\\advancedeshop\\views\\shared\\components\\cartwidget\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3F710116-DC95-4CFA-AAE9-FE36F5542238}|AdvancedEshop\\AdvancedEshop.csproj|solutionrelative:advancedeshop\\views\\shared\\components\\cartwidget\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,6 +51,58 @@
             {
               "$type": "Bookmark",
               "Name": "ST:1:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\PRN231\\EShop\\AdvancedEshop\\Views\\Products\\Details.cshtml",
+              "RelativeDocumentMoniker": "AdvancedEshop\\Views\\Products\\Details.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\PRN231\\EShop\\AdvancedEshop\\Views\\Products\\Details.cshtml",
+              "RelativeToolTip": "AdvancedEshop\\Views\\Products\\Details.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-16T05:04:50.339Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\PRN231\\EShop\\AdvancedEshop\\Controllers\\ProductsController.cs",
+              "RelativeDocumentMoniker": "AdvancedEshop\\Controllers\\ProductsController.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\PRN231\\EShop\\AdvancedEshop\\Controllers\\ProductsController.cs",
+              "RelativeToolTip": "AdvancedEshop\\Controllers\\ProductsController.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAAACEAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-16T05:03:49.009Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\PRN231\\EShop\\AdvancedEshop\\Views\\Products\\Index.cshtml",
+              "RelativeDocumentMoniker": "AdvancedEshop\\Views\\Products\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\PRN231\\EShop\\AdvancedEshop\\Views\\Products\\Index.cshtml",
+              "RelativeToolTip": "AdvancedEshop\\Views\\Products\\Index.cshtml",
+              "ViewState": "AQIAAJAAAAAAAAAAAAAAAJgAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-16T05:02:50.995Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Default.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\PRN231\\EShop\\AdvancedEshop\\Views\\Shared\\Components\\CartWidget\\Default.cshtml",
+              "RelativeDocumentMoniker": "AdvancedEshop\\Views\\Shared\\Components\\CartWidget\\Default.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\PRN231\\EShop\\AdvancedEshop\\Views\\Shared\\Components\\CartWidget\\Default.cshtml",
+              "RelativeToolTip": "AdvancedEshop\\Views\\Shared\\Components\\CartWidget\\Default.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-16T05:02:43.587Z",
+              "EditorCaption": ""
             }
           ]
         },
