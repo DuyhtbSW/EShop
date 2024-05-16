@@ -7,12 +7,15 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using AdvancedEshop.Data;
 using AdvancedEshop.Models;
+using AdvancedEshop.Models.ViewModels;
+using Microsoft.AspNetCore.Authorization;
 
 namespace AdvancedEshop.Controllers
 {
     public class ProductsController : Controller
     {
         private readonly ApplicationDbContext _context;
+        public int PageSize = 6;
 
         public ProductsController(ApplicationDbContext context)
         {
@@ -20,16 +23,123 @@ namespace AdvancedEshop.Controllers
         }
 
         // GET: Products
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(int productPage=1)
         {
-            var applicationDbContext = _context.Products.Include(p => p.Category).Include(p => p.Color).Include(p => p.Size);
-            return View(await applicationDbContext.ToListAsync());
+            return View(
+                new ProductListViewModel
+                {
+                    Products = _context.Products.Skip((productPage - 1) * PageSize).Take(PageSize),
+                 PagingInfo = new PagingInfo
+                    {
+                        ItemsPerPage = PageSize,
+                        CurrentPage = productPage,
+                        TotalItems = _context.Products.Count()
+                    }
+                }
+                ); 
         }
-        public async Task<IActionResult> ProductsByCart(int categoryId)
+        public async Task<IActionResult> ProductsByCart(int categoryId, int productPage = 1)
         {
-            var applicationDbContext = _context.Products.Where(p=>p.CategoryId==categoryId).Include(p => p.Category).Include(p => p.Color).Include(p => p.Size);
-            return View("Index",await applicationDbContext.ToListAsync());
+            // Số sản phẩm trên mỗi trang
+            int PageSize = 10;
+
+            // Lấy danh sách sản phẩm theo categoryId và bao gồm các thông tin liên quan
+            var applicationDbContext = _context.Products
+                .Where(p => p.CategoryId == categoryId)
+                .Include(p => p.Category)
+                .Include(p => p.Color)
+                .Include(p => p.Size);
+
+            // Tổng số sản phẩm
+            int totalItems = await applicationDbContext.CountAsync();
+
+            // Lấy danh sách sản phẩm cho trang hiện tại
+            var products = await applicationDbContext
+                .Skip((productPage - 1) * PageSize)
+                .Take(PageSize)
+                .ToListAsync();
+
+            // Tạo view model và gán danh sách sản phẩm cùng với thông tin phân trang
+            var viewModel = new ProductListViewModel
+            {
+                Products = products,
+                PagingInfo = new PagingInfo
+                {
+                    ItemsPerPage = PageSize,
+                    CurrentPage = productPage,
+                    TotalItems = totalItems
+                }
+            };
+
+            // Trả về view với view model
+            return View("Index", viewModel);
         }
+
+        [HttpPost]
+        public async Task<IActionResult> Search(string keywords, int productPage = 1)
+        {
+            return View("Index",
+                new ProductListViewModel
+                {
+                    Products = _context.Products.Where(p=>p.ProductName.Contains(keywords)).Skip((productPage - 1) * PageSize).Take(PageSize),
+                    PagingInfo = new PagingInfo
+                    {
+                        ItemsPerPage = PageSize,
+                        CurrentPage = productPage,
+                        TotalItems = _context.Products.Count()
+                    }
+                }
+                );
+        }
+
+
+        public class PriceRange
+        {
+            public int Min { get; set; }
+            public int Max { get; set; }
+        }
+
+        public IActionResult GetFilteredProducts([FromBody] FilterData filter)
+        {
+
+           
+
+            var filteredProducts = _context.Products.AsNoTracking()
+                              .Include(p => p.Color)
+                              .Include(p => p.Size)
+                              .ToList();
+            // Filter by PriceRanges
+            if (filter.PriceRanges != null && filter.PriceRanges.Count > 0 && !filter.PriceRanges.Contains("all"))
+            {
+                List<PriceRange> priceRanges = new List<PriceRange>();
+                foreach (var range in filter.PriceRanges)
+                {
+                    var value = range.Split('-').ToArray();
+                    if (value.Length == 2 && short.TryParse(value[0], out short min) && short.TryParse(value[1], out short max))
+                    {
+                        priceRanges.Add(new PriceRange { Min = min, Max = max });
+                    }
+                }
+                filteredProducts = filteredProducts.Where(p => priceRanges.Any(r => p.ProductPrice >= r.Min && p.ProductPrice <= r.Max)).ToList();
+            }
+
+            // Filter by Colors
+            if (filter.Colors != null && filter.Colors.Count > 0 && !filter.Colors.Contains("all"))
+            {
+                filteredProducts = filteredProducts.Where(p => p.Color != null && filter.Colors.Contains(p.Color.ColorName)).ToList();
+            }
+
+            // Filter by Sizes
+            if (filter.Sizes != null && filter.Sizes.Count > 0 && !filter.Sizes.Contains("all"))
+            {
+                filteredProducts = filteredProducts.Where(p => p.Size != null && filter.Sizes.Contains(p.Size.SizeName)).ToList();
+            }
+
+            return PartialView("_ReturnProducts", filteredProducts);
+        }
+
+
+      
 
         // GET: Products/Details/5
         public async Task<IActionResult> Details(int? id)
@@ -53,11 +163,12 @@ namespace AdvancedEshop.Controllers
         }
 
         // GET: Products/Create
+        [Authorize]
         public IActionResult Create()
         {
-            ViewData["CategoryId"] = new SelectList(_context.Categories, "CategoryId", "CategoryId");
-            ViewData["ColorId"] = new SelectList(_context.Colors, "ColorId", "ColorId");
-            ViewData["SizeId"] = new SelectList(_context.Sizes, "SizeId", "SizeId");
+            ViewData["CategoryId"] = new SelectList(_context.Categories, "CategoryId", "CategoryName");
+            ViewData["ColorId"] = new SelectList(_context.Colors, "ColorId", "ColorName");
+            ViewData["SizeId"] = new SelectList(_context.Sizes, "SizeId", "SizeName");
             return View();
         }
 
@@ -66,6 +177,7 @@ namespace AdvancedEshop.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
+        [Authorize]
         public async Task<IActionResult> Create([Bind("ProductId,ProductName,ProductDescription,CategoryId,ProductPrice,ProductDiscount,ProductPhoto,SizeId,ColorId,IsTrandy,IsArrived")] Product product)
         {
             if (ModelState.IsValid)
@@ -74,13 +186,14 @@ namespace AdvancedEshop.Controllers
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["CategoryId"] = new SelectList(_context.Categories, "CategoryId", "CategoryId", product.CategoryId);
-            ViewData["ColorId"] = new SelectList(_context.Colors, "ColorId", "ColorId", product.ColorId);
-            ViewData["SizeId"] = new SelectList(_context.Sizes, "SizeId", "SizeId", product.SizeId);
+            ViewData["CategoryId"] = new SelectList(_context.Categories, "CategoryId", "CategoryName", product.CategoryId);
+            ViewData["ColorId"] = new SelectList(_context.Colors, "ColorId", "ColorName", product.ColorId);
+            ViewData["SizeId"] = new SelectList(_context.Sizes, "SizeId", "SizeName", product.SizeId);
             return View(product);
         }
 
         // GET: Products/Edit/5
+        [Authorize]
         public async Task<IActionResult> Edit(int? id)
         {
             if (id == null || _context.Products == null)
@@ -93,9 +206,9 @@ namespace AdvancedEshop.Controllers
             {
                 return NotFound();
             }
-            ViewData["CategoryId"] = new SelectList(_context.Categories, "CategoryId", "CategoryId", product.CategoryId);
-            ViewData["ColorId"] = new SelectList(_context.Colors, "ColorId", "ColorId", product.ColorId);
-            ViewData["SizeId"] = new SelectList(_context.Sizes, "SizeId", "SizeId", product.SizeId);
+            ViewData["CategoryId"] = new SelectList(_context.Categories, "CategoryId", "CategoryName", product.CategoryId);
+            ViewData["ColorId"] = new SelectList(_context.Colors, "ColorId", "ColorName", product.ColorId);
+            ViewData["SizeId"] = new SelectList(_context.Sizes, "SizeId", "SizeName", product.SizeId);
             return View(product);
         }
 
@@ -104,6 +217,7 @@ namespace AdvancedEshop.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
+        [Authorize]
         public async Task<IActionResult> Edit(int id, [Bind("ProductId,ProductName,ProductDescription,CategoryId,ProductPrice,ProductDiscount,ProductPhoto,SizeId,ColorId,IsTrandy,IsArrived")] Product product)
         {
             if (id != product.ProductId)
@@ -131,13 +245,14 @@ namespace AdvancedEshop.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["CategoryId"] = new SelectList(_context.Categories, "CategoryId", "CategoryId", product.CategoryId);
-            ViewData["ColorId"] = new SelectList(_context.Colors, "ColorId", "ColorId", product.ColorId);
-            ViewData["SizeId"] = new SelectList(_context.Sizes, "SizeId", "SizeId", product.SizeId);
+            ViewData["CategoryId"] = new SelectList(_context.Categories, "CategoryId", "CategoryName", product.CategoryId);
+            ViewData["ColorId"] = new SelectList(_context.Colors, "ColorId", "ColorName", product.ColorId);
+            ViewData["SizeId"] = new SelectList(_context.Sizes, "SizeId", "SizeName", product.SizeId);
             return View(product);
         }
 
         // GET: Products/Delete/5
+        [Authorize]
         public async Task<IActionResult> Delete(int? id)
         {
             if (id == null || _context.Products == null)
@@ -161,6 +276,7 @@ namespace AdvancedEshop.Controllers
         // POST: Products/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
+        [Authorize]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
             if (_context.Products == null)
