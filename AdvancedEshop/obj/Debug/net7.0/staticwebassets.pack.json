@@ -21,6 +21,38 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\Admin\\Desktop\\PRN231\\EShop\\AdvancedEshop\\wwwroot\\img\\aopolonam.jpg",
+      "PackagePath": "staticwebassets\\img\\aopolonam.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\PRN231\\EShop\\AdvancedEshop\\wwwroot\\img\\aopolosocnam.jpg",
+      "PackagePath": "staticwebassets\\img\\aopolosocnam.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\PRN231\\EShop\\AdvancedEshop\\wwwroot\\img\\aosominam.jpg",
+      "PackagePath": "staticwebassets\\img\\aosominam.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\PRN231\\EShop\\AdvancedEshop\\wwwroot\\img\\aosomitayngannam.jpg",
+      "PackagePath": "staticwebassets\\img\\aosomitayngannam.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\PRN231\\EShop\\AdvancedEshop\\wwwroot\\img\\aothunnam.jpg",
+      "PackagePath": "staticwebassets\\img\\aothunnam.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\PRN231\\EShop\\AdvancedEshop\\wwwroot\\img\\aothunnamtayngan.jpg",
+      "PackagePath": "staticwebassets\\img\\aothunnamtayngan.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\PRN231\\EShop\\AdvancedEshop\\wwwroot\\img\\balocanvasnam.jpg",
+      "PackagePath": "staticwebassets\\img\\balocanvasnam.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\PRN231\\EShop\\AdvancedEshop\\wwwroot\\img\\batatrang.jpg",
+      "PackagePath": "staticwebassets\\img\\batatrang.jpg"
+    },
+    {
       "Id": "C:\\Users\\Admin\\Desktop\\PRN231\\EShop\\AdvancedEshop\\wwwroot\\img\\carousel-1.jpg",
       "PackagePath": "staticwebassets\\img\\carousel-1.jpg"
     },
@@ -51,6 +83,38 @@
     {
       "Id": "C:\\Users\\Admin\\Desktop\\PRN231\\EShop\\AdvancedEshop\\wwwroot\\img\\cat-6.jpg",
       "PackagePath": "staticwebassets\\img\\cat-6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\PRN231\\EShop\\AdvancedEshop\\wwwroot\\img\\crazyshoes.jpg",
+      "PackagePath": "staticwebassets\\img\\crazyshoes.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\PRN231\\EShop\\AdvancedEshop\\wwwroot\\img\\hoodienau.jpg",
+      "PackagePath": "staticwebassets\\img\\hoodienau.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\PRN231\\EShop\\AdvancedEshop\\wwwroot\\img\\muluoitrainamxanh.jpg",
+      "PackagePath": "staticwebassets\\img\\muluoitrainamxanh.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\PRN231\\EShop\\AdvancedEshop\\wwwroot\\img\\muluoitrainu.jpg",
+      "PackagePath": "staticwebassets\\img\\muluoitrainu.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\PRN231\\EShop\\AdvancedEshop\\wwwroot\\img\\muluoitraisocnam.jpg",
+      "PackagePath": "staticwebassets\\img\\muluoitraisocnam.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\PRN231\\EShop\\AdvancedEshop\\wwwroot\\img\\nonbucketnam.jpg",
+      "PackagePath": "staticwebassets\\img\\nonbucketnam.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\PRN231\\EShop\\AdvancedEshop\\wwwroot\\img\\nonbucketnu.jpg",
+      "PackagePath": "staticwebassets\\img\\nonbucketnu.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\PRN231\\EShop\\AdvancedEshop\\wwwroot\\img\\nonnurongvanh.jpg",
+      "PackagePath": "staticwebassets\\img\\nonnurongvanh.jpg"
     },
     {
       "Id": "C:\\Users\\Admin\\Desktop\\PRN231\\EShop\\AdvancedEshop\\wwwroot\\img\\offer-1.png",
@@ -95,6 +159,50 @@
     {
       "Id": "C:\\Users\\Admin\\Desktop\\PRN231\\EShop\\AdvancedEshop\\wwwroot\\img\\product-8.jpg",
       "PackagePath": "staticwebassets\\img\\product-8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\PRN231\\EShop\\AdvancedEshop\\wwwroot\\img\\quanjeannam.jpg",
+      "PackagePath": "staticwebassets\\img\\quanjeannam.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\PRN231\\EShop\\AdvancedEshop\\wwwroot\\img\\quanjeannamongom.jpg",
+      "PackagePath": "staticwebassets\\img\\quanjeannamongom.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\PRN231\\EShop\\AdvancedEshop\\wwwroot\\img\\quantaynam.jpg",
+      "PackagePath": "staticwebassets\\img\\quantaynam.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\PRN231\\EShop\\AdvancedEshop\\wwwroot\\img\\sneaker.jpg",
+      "PackagePath": "staticwebassets\\img\\sneaker.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\PRN231\\EShop\\AdvancedEshop\\wwwroot\\img\\sweater.jpg",
+      "PackagePath": "staticwebassets\\img\\sweater.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\PRN231\\EShop\\AdvancedEshop\\wwwroot\\img\\sweaterblue.jpg",
+      "PackagePath": "staticwebassets\\img\\sweaterblue.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\PRN231\\EShop\\AdvancedEshop\\wwwroot\\img\\sweatertrang.jpg",
+      "PackagePath": "staticwebassets\\img\\sweatertrang.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\PRN231\\EShop\\AdvancedEshop\\wwwroot\\img\\tuibannguyetnu.jpg",
+      "PackagePath": "staticwebassets\\img\\tuibannguyetnu.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\PRN231\\EShop\\AdvancedEshop\\wwwroot\\img\\tuideocheonam.jpg",
+      "PackagePath": "staticwebassets\\img\\tuideocheonam.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\PRN231\\EShop\\AdvancedEshop\\wwwroot\\img\\tuitotenu.jpg",
+      "PackagePath": "staticwebassets\\img\\tuitotenu.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Desktop\\PRN231\\EShop\\AdvancedEshop\\wwwroot\\img\\unisexsandal.jpg",
+      "PackagePath": "staticwebassets\\img\\unisexsandal.jpg"
     },
     {
       "Id": "C:\\Users\\Admin\\Desktop\\PRN231\\EShop\\AdvancedEshop\\wwwroot\\img\\user.jpg",
